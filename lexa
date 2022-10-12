@@ -31,15 +31,9 @@ print("""\033[93m
 \033[97m████ ████ █ █          █  █
 \033[97m█████████               ██     \033[33m
 """)
-username = str(input("\033[33m[GadaLuBau] \033[93mUsername:"))
-password = str(input("\033[33m[GadaLuBau] \033[93mPassword:"))
-if password == "lexa" and username == "RedX:
-    print ("Logged in as admin")
-    time.sleep(2)
 
-else:
-    print ("Incorrect Password. Please try again.")
-    time.sleep(999)
+    print ("Logged in as Clown")
+    time.sleep(2)
 
 os.system("clear")
 print("\033[92mConnecting To Server [\033[97m•\033[92m]")
